@@ -384,9 +384,21 @@
   }
 
   /* Responsive tweaks */
-  @media (max-width: 480px) {
+  @media (max-width: 768px) {
     .ring-2, .ring-3 { display: none; }
     .locked-box, .unlocked-box { padding: 22px 20px; }
+    
+    .top-label { font-size: 12px; }
+    .title { font-size: clamp(36px, 8vw, 72px); }
+    .subtitle { font-size: clamp(14px, 2.2vw, 15px); }
+    .number { font-size: clamp(42px, 8vw, 72px); }
+    .unit-label { font-size: 11px; }
+    .sep { font-size: clamp(32px, 6vw, 58px); }
+    .locked-box p { font-size: clamp(16px, 2.4vw, 17px); }
+    .unlocked-box h2 { font-size: clamp(26px, 5vw, 36px); }
+    .unlocked-box p { font-size: clamp(17px, 2.4vw, 19px); }
+    .signature { font-size: 14px; }
+    .date-hint { font-size: 11px; }
   }
 </style>
 </head>
